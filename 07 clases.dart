@@ -19,7 +19,7 @@ class Heroe {
   }
 */
 
-  Heroe({this.nombre, this.poder}); //constructor más corto, mejor
+  Heroe({this.nombre, this.poder}); //constructor más corto, mejor, similar al de JavaScript
 
   String toString() {
     return 'Nombre: ${this.nombre} - Poder: ${this.poder}';
